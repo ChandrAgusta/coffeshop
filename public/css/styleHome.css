@@ -1,0 +1,264 @@
+@import url("https://fonts.googleapis.com/css?family=Inter:500,600|Newsreader:400");
+
+.main-menu{
+    align-items: center;
+    background-color: var(--white);
+    border:1px none;
+    display : flex;
+    flex-direction: column;
+    height: 1024px;
+    overflow: hidden;
+    width: 1440px;
+}
+
+.hidden,
+.hidden * {
+    pointer-events: none;
+    visibility: hidden;
+}
+
+.flex-row{
+    align-items: center;
+    display: flex;
+    margin-right: 6.43px;
+    margin-top: 46px;
+    min-width: 1208px;
+}
+
+.overlap-group{
+    align-items: center;
+    background-color: #855711c7;
+    border-radius: 25px;
+    display: flex;
+    gap: 17px;
+    height: 73px;
+    min-width: 291px;
+    padding: 14px 15 px;
+
+}
+
+.overlap-group2{
+    height: 207px;
+    position: relative;
+    width: 179px;
+}
+
+.profile{
+    height: 207px;
+    left: 0;
+    object-fit: cover;
+    position: absolute;
+    top: 0;
+    width: 179px;
+}
+
+.rectangle-7{
+    background-color: #d9d9d936;
+    height: 188px;
+    left: 0;
+    position: absolute;
+    top: 9px;
+    width: 179px;
+}
+
+.halo{
+    color: #000000bd;
+    font-family: var(--font-family-newsreader);
+    font-size: var(--font-size-m2);
+    font-weight: 400;
+    letter-spacing: 0;
+    line-height: normal;
+    margin-bottom: 11px;
+    margin-left: 56px;
+    min-height: 40px;
+    min-width: 514px;
+    white-space: nowrap;
+}
+
+.icon-updated{
+    height: 66px;
+    margin-bottom: 13px;
+    margin-left: 396px;
+    width: 63px;
+}
+
+.overlap-group1{
+     border-radius: 25px;
+     height: 74px;
+     margin-left: 13px;
+     margin-top: 87px;
+     position: relative;
+     width: 1257px;
+}
+
+.search-menu{
+    color: #0000003d;
+    font-family:var(--font-family-inter);
+    font-size: var(--font-size-s);
+    font-weight: 500;
+    left: 123px;
+    letter-spacing: 0;
+    line-height: normal;
+    position: absolute;
+    top: 22px;
+}
+
+.vector{
+    height: 53px;
+    left:1164px;
+    position: absolute;
+    top: 9px;
+    width: 53px;
+}
+
+.vector-1{
+    height: 49px;
+    left:38px;
+    position: absolute;
+    top: 13px;
+    width: 47px;
+}
+
+.rectangle-1{
+    background-color: #d9d9d959;
+    border-radius: 25px;
+    height: 74px;
+    left : 0;
+    position: absolute;
+    top : 0;
+    width:1257px;
+}
+
+.rectangle-6{
+    align-self: flex-start;
+    background-color: #3d3d3d0f;
+    height: 290px;
+    margin-left: 98px;
+    margin-top: 50px;
+    width: 291px;
+}
+
+.title{
+    align-self: flex-start;
+    color: var(--black);
+    font-family: var(--font-family-newsreader);
+    font-size: var(--font-size-m2);
+    font-weight: 400;
+    letter-spacing: 0;
+    line-height: normal;
+    margin-left: 98px;
+    margin-top: 58px;
+    min-height: 49px;
+    width: 250px;
+}
+
+.icon-coffescript-1{
+    align-self: flex-end;
+    height: 70px;
+    margin-right: -556.54px;
+    margin-top: 970px;
+    width: 88px;
+}
+
+.overlap-group-container{
+    align-items: flex-start;
+    display: flex;
+    gap: 24px;
+    margin-right: 8px;
+    margin-top: 20px;
+    min-width: 1236px;
+}
+
+.overlap-group5{
+    align-items: center;
+    background-color: var(--cultured-pearl);
+    border-radius: 25px;
+    display: flex;
+    gap: 17px;
+    height: 73px;
+    min-width: 291px;
+    padding: 14px 19px;
+}
+
+.icon-coffe-togo{
+    align-self: flex-end;
+    height: 43px;
+    width: 42px;
+}
+
+.cold-brew{
+    letter-spacing: 0;
+    line-height: normal;
+    margin-bottom: 1px;
+    min-height:34px ;
+    min-width: 139px;
+}
+
+.icon-coffescript{
+    align-self: flex-end;
+    height: 42px;
+    width: 42px;
+}
+
+.cappuccino{
+    color: var(--white);
+    font-family: var(--font-family-inter);
+    font-size: var(--font-size-xs);
+    font-weight: 600px;
+    letter-spacing: 0;
+    line-height: normal;
+    margin-top: 1px;
+    min-height: 34px;
+    min-width: 163px;
+}
+
+.overlap-group4{
+    align-items: center;
+    background-color: var(--cultured-pearl);
+    border-radius: 25px;
+    display: flex;
+    gap: 37px;
+    height: 73px;
+    min-width: 291px;
+    padding: 15px 13px;
+}
+
+.icon-coffe{
+    height: 52px;
+    width: 42px;
+}
+
+.icon-location-food{
+    align-self: flex-end;
+    height: 40px;
+    width: 37px;
+}
+
+.beverage{
+    letter-spacing: 0;
+    line-height: normal;
+    margin-top: 1px;
+    min-height: 34px;
+    min-width: 144px;
+}
+
+.overlap-group3{
+    align-items: flex-start;
+    background-color: var(--cultured-pearl);
+    border-radius: 25px;
+    display: flex;
+    gap : 25px;
+    height: 73px;
+    min-width: 291px;
+    padding: 7px 15px;
+}
+
+.expresso{
+    align-self: center;
+    letter-spacing: 0;
+    line-height: normal;
+    margin-top: 1px;
+    min-height: 34px;
+    min-width: 126px;
+}
+
