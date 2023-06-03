@@ -21,8 +21,8 @@ class HomeController extends Controller
     public function showUserDashboard()
     {
         $user = Auth::user();
-        $product = Produk::all();
-        return view('user.dashboard',['users'=>$user,'product'=>$product]);
+        $product = Produk::all();        
+        return view('user.dashboard',['users'=>$user,'product'=>$product,'title'=>'user/dashboard']);
     }
 
     public function showKasirDashboard()

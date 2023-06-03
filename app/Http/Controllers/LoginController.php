@@ -21,7 +21,7 @@ class LoginController extends Controller
 
         if (Auth::attempt($credentials)) {
             // Autentikasi berhasil
-            // $user = Auth::user();p
+            // $user = Auth::user();            
             return redirect()->route('user.dashboard');
         }else if (Auth::guard('owners')->attempt($credentials)) {
             return redirect()->route('owner.dashboard');
