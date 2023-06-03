@@ -21,4 +21,10 @@ class Produk extends Model
         'id'
     ];
 
+    static function detail_produk($idProduk)
+    {
+        $data = Produk::where("id", $idProduk)->first();
+
+        return $data;
+    }
 }
